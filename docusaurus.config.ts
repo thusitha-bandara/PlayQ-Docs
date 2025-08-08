@@ -78,7 +78,7 @@ const config: Config = {
     navbar: {
       title: 'PlayQ',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'PlayQ Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -103,8 +103,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Getting Started',
+              to: '/',
             },
           ],
         },
@@ -128,10 +128,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
